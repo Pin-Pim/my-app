@@ -1,0 +1,23 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  background-color: antiquewhite;
+}
+
+.button-classic {
+  border: 0px;
+  padding: 10px 20px;
+}
+
+.button-classic:hover {
+  background-color: #e6e6e6;
+}
+
+.border {
+  color: #595959;
+  background-color: white;
+  padding: 10px 10px;
+}
