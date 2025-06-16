@@ -10,6 +10,7 @@ body {
 .button-classic {
   border: 0px;
   padding: 10px 20px;
+  background-color: white;
 }
 
 .button-classic:hover {
@@ -20,4 +21,10 @@ body {
   color: #595959;
   background-color: white;
   padding: 10px 10px;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
